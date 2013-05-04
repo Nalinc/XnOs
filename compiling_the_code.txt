@@ -1,0 +1,22 @@
+[u.s.e.r__m.a.n.u.a.l]
+
+Project 444 is build on ncurses graphics library,
+So you'll be needing ncurses-devel library
+[if you are already familiar with ncurses, you can skip step 2]
+
+
+1)Open terminal (Gnome) or Konsole (KDE)
+2)Copy and paste this command:
+	sudo apt-get install ncurses-dev
+	or
+	sudo aptitude install libncurses5-dev
+3)compile using
+    g++ Project444.cpp -lncurses -o Project444
+4)run command ./Project444
+5)select "play" from <main menu>
+6)choose your mode: easy/hard  
+7)play the game
+
+
+NOTE: follow instructions at http://petio.org/tools/ncurses.html to build ncurses from source :P
+
