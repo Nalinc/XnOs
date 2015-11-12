@@ -46,7 +46,7 @@ int main()
 	printw("\t\t\t++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
 	attron(COLOR_PAIR(1));
 	move(1,20);
-	printw("\t\t\t   | Project 4-4-4 |\n");
+	printw("\t\t\t\t| XnOs |\n");
 	attroff(COLOR_PAIR(1));//use_default_colors();
 	printw("\t\t\t++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 	attron(COLOR_PAIR(2));
@@ -90,8 +90,8 @@ return 0;
 void rules()
 {
 	clear();
-	printw("\t\t\t\t\tProject 4-4-4 :\n\nRULES :\n\n");
-	printw("- Project 4-4-4 is a 2 players game which is played on a 4x4 board.\n");
+	printw("\t\t\t\t\tProject XnOs :\n\nRULES :\n\n");
+	printw("- Project XnOs is a 2 players game which is played on a 4x4 board.\n");
     printw("- one player has 8 crosses(X) & the other player has 8 zeroes (0)\n");
     printw("- each player can place the symbol in the cell alternatively.\n");
 
@@ -591,9 +591,11 @@ return max;
 void credits()
 {
 	clear();
-	printw("\n\n\t\t\t\t\t   Game Developed by:\n\n\n");
-	printw("\n\n\n\t\t\t\t\t\tNalin Chhibber \n\n");
-	printw("\t\t\t\t\t     CSE 2nd Year,  MSIT");
+	printw("\n\n\t\t\t\t\t\tProject by:");
+	printw("\n\n\n\t\t\t\t\tNalin Chhibber\n\n");
+	printw("\t\t\t\t\t'http://nalinc.github.io'\n\n\n\n\n\n");
+	printw("\t\t\t\t\tpress any key to return to main menu..\n\n");
+
 	getch();
 	clear();
 }
