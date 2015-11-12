@@ -21,7 +21,7 @@ XnOs is build on ncurses graphics library, So you'll be needing ```ncurses-devel
  - play the game
 
 
-NOTE: You may optionally follow instructions at http://www.linuxfromscratch.org/lfs/view/development/chapter06/ncurses.html to build ncurses from source ;)
+NOTE: You may optionally follow [these](http://geeksww.com/tutorials/operating_systems/linux/tools/how_to_download_compile_and_install_gnu_ncurses_on_debianubuntu_linux.php) instructions to build ncurses from source ;)
 
 
 ##What is it?
